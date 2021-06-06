@@ -1,0 +1,94 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .left-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: inherit;
+    width: 100%;
+    height: 10%;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 30px 20px;
+    -webkit-box-shadow: 0 5px 10px 2px #ccc;
+            box-shadow: 0 5px 10px 2px #ccc;
+  }
+  .left-nav .logo {
+    place-content: inherit;
+  }
+  .left-nav nav {
+    display: none;
+  }
+  .Right {
+    width: 100vw;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .Right img {
+    max-width: 100%;
+    -webkit-transform: translateY(calc(0px+10%));
+            transform: translateY(calc(0px+10%));
+  }
+  .right-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    width: 100vw;
+  }
+  .right-top img {
+    width: 100%;
+    -webkit-transform: translateY(calc(0px+10%));
+            transform: translateY(calc(0px+10%));
+  }
+  .interior {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    top: 370px;
+    left: 0;
+    height: 100%;
+  }
+  .content {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .innner-service {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .innner-service .box {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.contact {
+  width: 100%;
+}
+/*# sourceMappingURL=mob.css.map */
